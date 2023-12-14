@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../Components/NavBar/NavBar";
 import "./Problematica.css";
 
-const Problematica = () => {
+const Problema = () => {
   return (
     <>
       <NavBar />
@@ -28,4 +28,4 @@ const Problematica = () => {
   );
 };
 
-export default Problematica;
+export default Problema;

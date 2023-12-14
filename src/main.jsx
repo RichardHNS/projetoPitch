@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { BrowserRouter as Router, RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Problematica from './Pages/Problematica/problematica.jsx'
 import Solucao from './Pages/Solucao/Solucao.jsx'
 import Validacao from './Pages/Validacao/Validacao.jsx'
+import Problema from './Pages/Problematica/Problema.jsx'
 
 
 const router = createBrowserRouter([
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/Problematica',
-    element: <Problematica />
+    element: <Problema />
   },
   {
     path:'/Solucao',
